@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Spartan;
+}
+
+#container {
+    width: 80%;
+    margin: 10% auto;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: -2px;
+}
+
+#moto {
+    font-size: 0.95em;
+    margin: 10% auto;
+    text-align: center;
+    color: hsl(303, 10%, 53%);
+    letter-spacing: -1px;
+}
+
+.rates {
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+
+.source {
+    padding: 3%;
+    color: hsl(300, 43%, 22%);
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.box {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    margin: 5% 3%;
+}
+
+.photo {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 50%;
+    width: 30%;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    margin: 10% 10%;
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+    letter-spacing: -1px;
+}
+
+.name {
+    color: hsl(300, 24%, 96%);
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.comment {
+    color: hsl(300, 24%, 96%);
+    font-size: 0.8em;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    letter-spacing: -1px;
+}
+
+footer {
+    margin-top: 10%;
+    color:  hsl(300, 16%, 35%);;
+    padding: 5% 10%;
+}
+
+footer a {
+    color: hsl(333, 80%, 67%);
+}
+
+
+@media screen and (min-width: 400px) {
+    #container {
+        width: 60%;
+    }
+
+}
+
+@media screen and (min-width: 520px) {
+    #container {
+        width: 50%;
+    }
+
+}
+
+@media screen and (min-width: 635px) {
+    #container {
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width: 709px) {
+    #container {
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width: 709px) {
+    .source {
+        padding: 0%;
+    }
+
+    #container {
+        margin: 5% auto;
+    }
+}
+
+@media screen and (min-width: 977px) {
+    #container {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    #row-desktop {
+        display: flex;
+    }
+
+    header {
+        width: 35%;
+    }
+
+    #rating {
+        position: relative;
+        width: 70%;
+        float: right;
+    }
+
+    h1,
+    #moto,
+    .attribution {
+        text-align: left;
+        margin: 2%;
+    }
+
+    .rates {
+        display: inline;
+        text-align: right;
+        margin-bottom: 5%;
+    }
+
+    .rates .stars,
+    .source {
+        display: inline-block;
+        width: 38%
+    }
+
+    #r3{
+        position: relative;
+        top: 60%;
+        right:1%;
+    }
+    #r2{
+        position: relative;
+        top: 40%;
+        right:4%;
+    }
+    #s2{
+        position: relative;
+        right: 5%;
+    }
+
+    #r1{
+        position: relative;
+        top: 17%;
+        right:15%;
+    }
+    
+    .box{
+        width:28%;
+        margin: 1%;
+    }
+    #reviews{
+        margin-top:3%;
+    }
+    #reviews .box{
+        display: inline-block;
+    }
+
+    #box2{
+        position: relative;
+        top:2em; 
+    }
+
+    #box3{
+        position: relative;
+        top:4em;
+    }
+
+    footer{
+        padding: 0;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    #container {
+        width: 80%;
+        margin: 8% auto;
+    }
+
+    .rates .stars,
+    .source {
+        width: 38%
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+    header {
+        width: 30%;
+    }
+
+    
+    .rates .stars,
+    .source {
+        width: 32%
+    }
+
+    #rating{
+        position: relative;
+        left:15%;
+    }
+}
+
+
+@media screen and (min-width: 1350px) {
+    #container {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+
+    header {
+        width: 25%;
+    }
+
+    .source{
+        letter-spacing: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1650px) {
+    .source {
+        width: 29%
+    }
+    #rating{
+        position: relative;
+        left:18%;
+    }
+}
